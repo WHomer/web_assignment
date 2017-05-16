@@ -1,0 +1,58 @@
+.starter-template {
+  padding-top: 30px;
+}
+
+.row div {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+div img {
+  width: 100%;
+}
+
+.image {
+  position: relative;
+}
+
+.imageAlert {
+  display: none;
+}
+
+.image:hover .imageAlert {
+  display: block;
+}
+
+.imageAlert {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  top: 2px;
+  right: 2px;
+  background: #fff;
+}
+
+@media (min-width: 993px) {
+  #mediaContent:after {
+    content: " Desktop";
+  }
+}
+
+@media (max-width: 992px) {
+  #mediaContent:after {
+    content: " Laptop";
+  }
+}
+
+@media (max-width: 768px) {
+  #mediaContent:after {
+    content: " Tablet";
+  }
+}
+
+@media (max-width: 480px) {
+  #mediaContent:after {
+    content: " Phone";
+  }
+}
+

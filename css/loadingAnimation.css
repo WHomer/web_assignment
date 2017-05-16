@@ -1,0 +1,91 @@
+
+
+
+@keyframes exampleOne {
+  10% {background-image:
+      none;}
+  20% {background-image:
+      linear-gradient(126deg, transparent 50%, white 50%),
+      linear-gradient(90deg, white 50%, transparent 50%);}
+  30% {background-image:
+      linear-gradient(162deg, transparent 50%, white 50%),
+      linear-gradient(90deg, white 50%, transparent 50%);}
+  40% {background-image:
+      linear-gradient(198deg, transparent 50%, white 50%),
+      linear-gradient(90deg, white 50%, transparent 50%);}
+  50% {background-image:
+      linear-gradient(234deg, transparent 50%, white 50%),
+      linear-gradient(90deg, white 50%, transparent 50%);}
+  60% {background-image:
+      linear-gradient(90deg, white 50%, transparent 50%);}
+  70% {background-image:
+      linear-gradient(126deg, transparent 50%, blue 50%),
+      linear-gradient(90deg, white 50%, transparent 50%);}
+  80% {background-image:
+      linear-gradient(162deg, transparent 50%, blue 50%),
+      linear-gradient(90deg, white 50%, transparent 50%);}
+  90% {background-image:
+      linear-gradient(198deg, transparent 50%, blue 50%),
+      linear-gradient(90deg, white 50%, transparent 50%);}
+  100% {background-image:
+      linear-gradient(234deg, transparent 50%, blue 50%),
+      linear-gradient(90deg, white 50%, transparent 50%);}
+}
+
+.circleOne {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: blue;
+  border: 2px solid blue;
+  margin-left: 25%;
+  margin-top: 25px;
+  animation: exampleOne 5s infinite;
+}
+
+.circleTwo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: blue;
+  border: 2px solid blue;
+  margin-left: 25%;
+  margin-top: 25px;
+  animation: exampleTwo 800ms infinite;
+}
+
+
+@keyframes exampleTwo {
+  10% {background-image:
+      linear-gradient(126deg, transparent 50%, white 50%),
+      linear-gradient(90deg, white 50%, transparent 50%);}
+  20% {background-image:
+      linear-gradient(162deg, transparent 50%, white 50%),
+      linear-gradient(126deg, white 50%, transparent 50%);}
+  30% {background-image:
+      linear-gradient(198deg, transparent 50%, white 50%),
+      linear-gradient(162deg, white 50%, transparent 50%);}
+  40% {background-image:
+      linear-gradient(234deg, transparent 50%, white 50%),
+      linear-gradient(198deg, white 50%, transparent 50%);}
+  50% {background-image:
+      linear-gradient(270deg, transparent 50%, white 50%),
+      linear-gradient(234deg, white 50%, transparent 50%);}
+  60% {background-image:
+      linear-gradient(90deg, transparent 50%, white 50%),
+      linear-gradient(126deg, white 50%, transparent 50%);}
+  70% {background-image:
+      linear-gradient(126deg, transparent 50%, white 50%),
+      linear-gradient(162deg, white 50%, transparent 50%);}
+  80% {background-image:
+      linear-gradient(162deg, transparent 50%, white 50%),
+      linear-gradient(198deg, white 50%, transparent 50%);}
+  90% {background-image:
+      linear-gradient(198deg, transparent 50%, white 50%),
+      linear-gradient(234deg, white 50%, transparent 50%);}
+  100% {background-image:
+      linear-gradient(234deg, transparent 50%, white 50%),
+      linear-gradient(270deg, white 50%, transparent 50%);}
+}
+
+

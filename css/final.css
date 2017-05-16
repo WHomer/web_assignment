@@ -1,0 +1,113 @@
+.starter-template {
+  margin-top: 50px;
+}
+
+/*
+#canvas {
+  border: 5px solid black;
+  width: 80%;
+  height: 300px;
+}
+
+.ct {
+  margin: auto;
+}
+
+@keyframes clearCanvas {
+  0%   {background-color:black; top:-250px;}
+  100% {background-color:white; width: 80%; height:300px; Top:-330px;}
+
+}
+
+
+.clearCanvas {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: clearCanvas;
+  animation-duration: 1s;
+}
+
+.hide {
+  display: none;
+}
+
+*/
+
+/* OLD CODE ^^^^^^^ */
+.square-container {
+  width: 30%;
+  margin: 0 35%;
+
+}
+
+.square {
+  background-color: blue;
+  height: 50px;
+  width: 50px;
+  animation-duration: 2s;
+  float: left;
+  transition: transform 5s;
+}
+
+@keyframes squareFall1 {
+  100% {
+    background-color: black;
+    transform: translateX(200px) translateY(200px);
+  }
+}
+@keyframes squareFall2 {
+  100% {
+    background-color: black;
+    transform: translateX(-200px) translateY(200px);
+  }
+}
+@keyframes squareFall3 {
+  100% {
+    background-color: black;
+    transform: translateX(-100px) translateY(200px);
+  }
+}
+@keyframes squareFall4 {
+  100% {
+    background-color: black;
+    transform: translateX(100px) translateY(200px);
+  }
+}
+@keyframes squareFall5 {
+  100% {
+    background-color: black;
+    transform: translateX(50px) translateY(200px);
+  }
+}
+@keyframes squareFall6 {
+  100% {
+    background-color: black;
+    transform: translateX(75px) translateY(200px);
+  }
+}
+@keyframes squareFall7 {
+  100% {
+    background-color: black;
+    transform: translateX(300px) translateY(200px);
+  }
+}
+@keyframes squareFall8 {
+  100% {
+    background-color: black;
+    transform: translateX(250px) translateY(200px);
+  }
+}
+@keyframes squareFall9 {
+  100% {
+    background-color: black;
+    transform: translateX(175px) translateY(200px);
+  }
+}
+@keyframes squareFall10 {
+  100% {
+    background-color: black;
+    transform: translateX(125px) translateY(200px);
+  }
+}
